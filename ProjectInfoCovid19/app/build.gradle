@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.kartono.project_infocovid19"
-        minSdkVersion 16
+        minSdkVersion 17
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"

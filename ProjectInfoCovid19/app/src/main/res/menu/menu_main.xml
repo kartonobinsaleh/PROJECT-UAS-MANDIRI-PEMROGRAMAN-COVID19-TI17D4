@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/summaryMenu"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Dunia"/>
+    <item
+        android:id="@+id/summaryIdnMenu"
+        android:icon="@drawable/ic_baseline_golf_course_24"
+        android:title="Indonesia"/>
+    <item
+        android:id="@+id/historyMenu"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="History"/>
+</menu>

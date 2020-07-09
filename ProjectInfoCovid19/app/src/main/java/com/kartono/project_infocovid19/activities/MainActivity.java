@@ -1,4 +1,4 @@
-package com.kartono.project_infocovid19;
+package com.kartono.project_infocovid19.activities;
 
 import android.os.Bundle;
 import android.text.format.DateFormat;

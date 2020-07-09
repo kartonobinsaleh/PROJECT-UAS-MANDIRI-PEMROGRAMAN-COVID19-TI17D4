@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Project-InfoCovid19</string>
+    <string name="from_corona">Corona</string>
+    <string name="confirmed">Positif</string>
+    <string name="recovered">Sembuh</string>
+    <string name="deaths">Meninggal</string>
+    <string name="last_update">Update Terakhir</string>
+    <string name="indonesia_summary_data">Kasus Di Indonesia</string>
+    <string name="world_summary_data">Kasus Di Dunia</string>
+    <string name="keterangan">Keterangan</string>
 </resources>

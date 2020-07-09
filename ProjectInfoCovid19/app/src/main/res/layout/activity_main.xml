@@ -10,7 +10,7 @@
         android:id="@+id/mainHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_home_wave"
+        android:background="@color/colorPrimary"
         android:fitsSystemWindows="true"
         app:elevation="0dp">
 
@@ -42,10 +42,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
-            android:layout_marginEnd="-20dp"
+            android:layout_marginEnd="1dp"
             android:layout_marginBottom="5dp"
             app:cardCornerRadius="10dp"
-            app:cardElevation="5dp">
+            app:cardElevation="5dp"
+            android:layout_marginRight="1dp">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -56,8 +57,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:src="@drawable/ic_date"
-                    android:tint="@color/colorPrimary" />
+                    android:src="@drawable/ic_baseline_access_time_24"
+                    android:tint="@color/colorPrimary"
+                    android:layout_marginLeft="5dp" />
 
                 <TextView
                     android:id="@+id/tvDate"
@@ -69,7 +71,10 @@
                     android:layout_toEndOf="@id/imgDate"
                     android:text="Minggu, 20 Oktober 2020"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_toRightOf="@id/imgDate" />
 
             </RelativeLayout>
 
@@ -81,7 +86,7 @@
         android:id="@+id/llCurved"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:background="@drawable/bg_home_curve"
+        android:background="@color/colorPrimary"
         android:orientation="horizontal"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
@@ -97,12 +102,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@drawable/background_navigation"
+        android:background="@color/colorPrimary"
         app:itemIconTint="@android:color/white"
         app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
         app:itemRippleColor="@android:color/white"
         app:itemTextColor="@android:color/white"
         app:layout_insetEdge="bottom"
-        app:menu="@menu/bottom_menu" />
+        app:menu="@menu/menu_main" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
