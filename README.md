@@ -4,3 +4,4 @@ Ini adalah project mandiri UAS pemrograman mobile, membuat Aplikasi info COVID-1
 NAMA	: KARTONO
 NIM	: 311710634
 KELAS	: TI17D4
+
